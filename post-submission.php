@@ -4,13 +4,8 @@
         <link rel="stylesheet" type="text/css" href="styles.css">
     </head>
     <body>
-        <header>
-            <h1>Blog CMS</h1>
-        </header>
-        <nav>
-            <a href="index.php">HOME</a>
-            <a href="post-submission.php">NEW BLOG POST</a>
-        </nav>
+        <?php include 'header.php' ?>
+        <?php include 'nav.php' ?>
         <main>
             <form>
                 <input type="text" name="title" placeholder="Title"></input>
@@ -20,8 +15,6 @@
                 <button type="submit" value="Submit">SUBMIT</input>
             </form>
         </main>
-        <footer>
-            Built using Apache, PHP, MySQL, JS, HTML, CSS by @mjwedan
-        </footer>
+        <?php include 'footer.php' ?>
     </body>
 </html>

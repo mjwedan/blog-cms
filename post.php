@@ -4,13 +4,8 @@
         <link rel="stylesheet" type="text/css" href="styles.css">
     </head>
     <body>
-        <header>
-            <h1>Blog CMS</h1>
-        </header>
-        <nav>
-            <a href="index.php">HOME</a>
-            <a href="post-submission.php">NEW BLOG POST</a>
-        </nav>
+        <?php include 'header.php' ?>
+        <?php include 'nav.php' ?>
         <main>
             <h2>Title</h2>
             <div>Author</div>
@@ -20,8 +15,6 @@
                 <p>Shaman vape bespoke migas hot chicken locavore art party pitchfork chicharrones prism hoodie post-ironic bushwick pop-up. Hexagon four dollar toast bicycle rights vice tacos austin locavore church-key, wolf food truck whatever cardigan disrupt flannel selvage. Brooklyn banh mi man bun la croix before they sold out street art lomo chia ugh fingerstache cloud bread neutra irony coloring book.</p>
             </div>
         </main>
-        <footer>
-            Built using Apache, PHP, MySQL, JS, HTML, CSS by @mjwedan
-        </footer>
+        <?php include 'footer.php' ?>
     </body>
 </html>
