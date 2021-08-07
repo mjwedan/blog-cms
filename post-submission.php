@@ -7,13 +7,22 @@
         <?php include 'header.php' ?>
         <?php include 'nav.php' ?>
         <main>
-            <form>
-                <input type="text" name="title" placeholder="Title"></input>
-                <input type="text" name="author" placeholder="Author"></input>
-                <input type="date" name="date" placeholder="Date"></input>
-                <textarea name="content" placeholder="Content"></textarea>
-                <button type="submit" value="Submit">SUBMIT</input>
-            </form>
+            <div>
+                <form class="post-submissions-form">
+                    <label for="title">Title</label>
+                    <input type="text" id="title" name="title" placeholder="Title"></input>
+                    
+                    <label for="author">Author</label>
+                    <input type="text" id="author" name="author" placeholder="Author"></input>
+                    
+                    <label for="author">Date</label>
+                    <input type="date" id="date" name="date" placeholder="Date"></input>
+                    
+                    <label for="content">Content</label>
+                    <textarea name="content" id="content" placeholder="Content"></textarea>
+                    <button type="submit" value="Submit">SUBMIT</input>
+                </form>
+            </div>
         </main>
         <?php include 'footer.php' ?>
     </body>
