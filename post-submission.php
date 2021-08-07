@@ -8,7 +8,7 @@
         <?php include 'nav.php' ?>
         <main>
             <div>
-                <form class="post-submissions-form">
+                <form class="post-submissions-form" action="submit-post.php" method="POST">
                     <label for="title">Title</label>
                     <input type="text" id="title" name="title" placeholder="Title"></input>
                     
@@ -20,7 +20,7 @@
                     
                     <label for="content">Content</label>
                     <textarea name="content" id="content" placeholder="Content"></textarea>
-                    <button type="submit" value="Submit">SUBMIT</input>
+                    <button type="submit" value="Submit">SUBMIT</button>
                 </form>
             </div>
         </main>
