@@ -142,6 +142,50 @@ main{
     box-sizing: border-box;
 }
 
+.post-submissions-form{
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+}
+
+.post-submissions-form input[type=text], 
+.post-submissions-form input[type=date],
+.post-submissions-form textarea{
+  border: 1px solid #dddddd;
+  border-radius: 15px;
+  padding: 10px;
+  margin-top: 7px;
+  margin-bottom: 20px;
+  width: 90%;
+  max-width: 500px;
+}
+
+.post-submissions-form textarea{
+  max-width: 900px;
+  min-height: 200px;
+}
+
+.post-submissions-form button{
+  height: 40px;
+  width: 150px;
+  background-color: #88AB75;
+  font-size: .9em;
+  font-weight: 700;
+  text-decoration: none;
+  letter-spacing: 1px;
+  color: #fff;
+  border: none;
+  border-radius: 30px;
+  box-shadow: none;
+}
+
+div{
+border-radius: 5px;
+background-color: #f2f2f2;
+padding: 20px;
+}
+
 footer{
     height: 50px;
     padding: 20px;
