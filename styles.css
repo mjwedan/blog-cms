@@ -98,12 +98,16 @@ html body{
     color: #333333;
 }
 
+/* Header */
+
 header{
     background-color: #47556A;
     height: 110px;
     text-align: center;
     padding-top: 20px;
 }
+
+/* Navigation */
 
 nav{
     background-color: #47556A;
@@ -136,11 +140,16 @@ h1{
     margin: 10px 20px;
 }
 
+/* Main */
+
 main{
     height: 500px;
     padding: 50px;
     box-sizing: border-box;
 }
+
+
+/* Post Submission Form*/
 
 .post-submissions-form{
   display: flex;
@@ -185,6 +194,8 @@ border-radius: 5px;
 background-color: #f2f2f2;
 padding: 20px;
 }
+
+/* Footer */
 
 footer{
     height: 50px;
