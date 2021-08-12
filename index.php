@@ -6,6 +6,7 @@
     <body>
         <?php include 'header.php' ?>
         <?php include 'nav.php' ?>
+        <div class="flex-wrapper">
         <main>
         <?php
             function getPostTitlesFromDatabase() {
@@ -33,5 +34,6 @@
             </ul>
         </main>
         <?php include 'footer.php' ?>
+        </div>
     </body>
 </html>
