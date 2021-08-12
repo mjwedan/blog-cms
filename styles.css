@@ -140,19 +140,11 @@ h1{
     margin: 10px 20px;
 }
 
-/* Used for sticky footer */
-
-.flex-wrapper {
-  display: flex;
-  min-height: 100vh;
-  flex-direction: column;
-  justify-content: space-between;
-}
-
 /* Main */
 
 main{
-    padding: 50px 50px 0 50px;
+    min-height: calc(100vh - 200px);
+    padding: 50px;
     box-sizing: border-box;
 }
 
@@ -209,6 +201,7 @@ footer{
     height: 70px;
     padding: 20px;
     background-color: #47556A;
+    display: flex;
     color: #ffffff;
     text-align: center;
 }
