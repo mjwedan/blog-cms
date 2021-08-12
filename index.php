@@ -2,6 +2,7 @@
     <head>
         <title>Blog CMS</title>
         <link rel="stylesheet" type="text/css" href="styles.css">
+        <script src="hello.js"></script>
     </head>
     <body>
         <?php include 'header.php' ?>
