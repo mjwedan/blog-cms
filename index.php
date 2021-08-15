@@ -1,9 +1,5 @@
 <!DOCTYPE html>
-    <head>
-        <title>Blog CMS</title>
-        <link rel="stylesheet" type="text/css" href="styles.css">
-        <script src="hello.js"></script>
-    </head>
+<?php include 'head.php' ?> 
     <body>
         <?php include 'header.php' ?>
         <?php include 'nav.php' ?>
