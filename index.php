@@ -32,6 +32,10 @@
                     }
                 ?>
             </ul>
+            <br>
+                <button onclick="revealMessage()">Hello!</button>
+                <p id="hiddenMessage" style="display:none">Hi there!</p>
+            <br>
         </main>
         <?php include 'footer.php' ?>
     </body>
