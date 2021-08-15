@@ -8,6 +8,9 @@
 
     <script src="script.js"></script>
 
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/ace/1.4.1/ace.js">
+    </script>
+
     <title>Blog CMS</title>
     <link rel="stylesheet" type="text/css" href="styles.css">
     <script src="hello.js"></script>
