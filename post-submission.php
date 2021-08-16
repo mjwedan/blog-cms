@@ -6,18 +6,21 @@
         <main>
             <div>
                 <form class="post-submissions-form" action="submit-post.php" method="POST">
-                    <label for="title">Title</label>
+                    
                     <input type="text" id="title" name="title" placeholder="Title"></input>
-                    
-                    <label for="author">Author</label>
                     <input type="text" id="author" name="author" placeholder="Author"></input>
-                    
-                    <label for="author">Date</label>
                     <input type="date" id="date" name="date" placeholder="Date"></input>
-                    
-                    <label for="content">Content</label>
-                    <textarea name="content" id="content" placeholder="Content"></textarea>
-                    <button type="submit" value="Submit">SUBMIT</button>
+                    <div id="editor">function foo(items) {
+                        var x = "All this is syntax highlighted";
+                        return x;
+                    }</div>
+                    <script src="/ace-builds/src-noconflict/ace.js" type="text/javascript" charset="utf-8"></script>
+                    <script>
+                        var editor = ace.edit("editor");
+                        editor.setTheme("ace/theme/eclipse");
+                        editor.session.setMode("ace/mode/html");
+                    </script>
+                    <button type="submit" value="Submit">SUBMIT</input>                  
                 </form>
             </div>
         </main>

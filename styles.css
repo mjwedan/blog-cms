@@ -195,6 +195,18 @@ background-color: #f2f2f2;
 padding: 20px;
 }
 
+
+/* Ace editor */
+
+#editor { 
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  height: 300px;
+}
+
+
 /* Footer */
 
 footer{
